@@ -1,0 +1,116 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	margin-top: 80px;
+	margin-bottom: 70px; /* bottom = footer height */
+}
+
+.nav .fa {
+	margin-right: 3px;
+}
+
+
+/* Footer */
+footer {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+	padding-top: 10px;
+	margin-top: 10px;
+	background-color: #242424;
+	color: #fff;
+
+}
+
+footer .container {
+	margin-top: 15px;
+}
+/* End footer */
+
+.select2-container-multi .select2-choices .select2-search-choice { 
+	padding: 5px 5px 5px 15px;
+	color: #000;
+	background-color: #CCC;
+	border-radius: 2px;
+}
+
+
+/* Carousel */
+.avis-section {
+	background: url(../img/avis.png) no-repeat center center;
+	padding: 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.avis-section .overlay {
+	/*background: url(../img/overlay.png)*/
+}
+
+.avis-section h4, .avis-section h5 {
+	font-size: 18px;
+	color: #fff;
+}
+
+.slide-custom {
+  height: 240px;
+  padding: 50px 20px 100px 20px;
+  line-height: 30px;
+}
+
+.carousel-indicators li {
+  border: 2px solid #2C9CBD;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-indicators li.active {
+  background: #2C9CBD;
+  border: 2px solid #2C9CBD;
+  width: 10px;
+  height: 10px;
+}
+/* End carousel */
+
+.input-group {
+	margin-bottom: 25px	
+}
+
+.stat_widget {
+	height: 150px;
+}
+
+
+/* Notifs table */
+
+.notifs-table .notif-content {
+	max-width: 200px
+}
+
+.notifs-table .notif-link {
+	width: 70px;
+}
+
+.notifs-table .notif-date {
+	width: 150px;
+}
+/* End Notif table */
+
+.smartphone_logo {
+	width: 300px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    margin-right:-4px;
+}
